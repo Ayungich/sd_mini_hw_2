@@ -36,7 +36,6 @@ public class Animal {
         this.enclosureId = enclosureId;
     }
 
-    /* Business methods */
     public void feed() {
         System.out.println("Feeding animal " + name);
     }
@@ -48,8 +47,6 @@ public class Animal {
     public void move(Long newEnclosureId) {
         this.enclosureId = newEnclosureId;
     }
-
-    /* Getters & setters */
 
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
